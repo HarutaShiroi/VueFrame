@@ -5,7 +5,7 @@ An application template of Vue, maybe for admin system, for low-level Vue applic
 
 
 
-just for fun:)
+just for fun : )
 
 
 个人用前端自建Vue框架，用以承载一般向简单需求的业务应用，使用了Vue3 + Vite + TypeScript的技术
