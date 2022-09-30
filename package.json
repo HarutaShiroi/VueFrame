@@ -6,12 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "scss": "^0.2.4",
     "vue": "^3.2.37",
     "vue-router": "^4.1.5"
   },
