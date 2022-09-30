@@ -12,6 +12,7 @@ specifiers:
   typescript: ^4.6.4
   vite: ^3.1.0
   vue: ^3.2.37
+  vue-router: ^4.1.5
   vue-tsc: ^0.40.4
 
 dependencies:
@@ -19,6 +20,7 @@ dependencies:
   eslint-plugin-prettier: 4.2.1_cfn5x6ujhhgzv3423d6k7r2zzm
   prettier: 2.7.1
   vue: 3.2.40
+  vue-router: 4.1.5_vue@3.2.40
 
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.38.1_c7qepppml3d4ahu5cnfwqe6ltq
@@ -340,6 +342,10 @@ packages:
       '@vue/compiler-dom': 3.2.40
       '@vue/shared': 3.2.40
 
+  /@vue/devtools-api/6.4.2:
+    resolution: {integrity: sha512-6hNZ23h1M2Llky+SIAmVhL7s6BjLtZBCzjIz9iRSBUsysjE7kC39ulW0dH4o/eZtycmSt4qEr6RDVGTIuWu+ow==}
+    dev: false
+
   /@vue/reactivity-transform/3.2.40:
     resolution: {integrity: sha512-HQUCVwEaacq6fGEsg2NUuGKIhUveMCjOk8jGHqLXPI2w6zFoPrlQhwWEaINTv5kkZDXKEnCijAp+4gNEHG03yw==}
     dependencies:
@@ -601,6 +607,15 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-linux-mips64le/0.15.10:
+    resolution: {integrity: sha512-BxP+LbaGVGIdQNJUNF7qpYjEGWb0YyHVSKqYKrn+pTwH/SiHUxFyJYSP3pqkku61olQiSBnSmWZ+YUpj78Tw7Q==}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
   /esbuild-linux-ppc64le/0.15.10:
     resolution: {integrity: sha512-LoSQCd6498PmninNgqd/BR7z3Bsk/mabImBWuQ4wQgmQEeanzWd5BQU2aNi9mBURCLgyheuZS6Xhrw5luw3OkQ==}
     engines: {node: '>=12'}
@@ -700,6 +715,7 @@ packages:
       esbuild-linux-64: 0.15.10
       esbuild-linux-arm: 0.15.10
       esbuild-linux-arm64: 0.15.10
+      esbuild-linux-mips64le: 0.15.10
       esbuild-linux-ppc64le: 0.15.10
       esbuild-linux-riscv64: 0.15.10
       esbuild-linux-s390x: 0.15.10
@@ -1417,6 +1433,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-router/4.1.5_vue@3.2.40:
+    resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.4.2
+      vue: 3.2.40
+    dev: false
 
   /vue-tsc/0.40.13_typescript@4.8.4:
     resolution: {integrity: sha512-xzuN3g5PnKfJcNrLv4+mAjteMd5wLm5fRhW0034OfNJZY4WhB07vhngea/XeGn7wNYt16r7syonzvW/54dcNiA==}
