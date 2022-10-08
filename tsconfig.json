@@ -4,7 +4,7 @@
     "useDefineForClassFields": true,
     "module": "ESNext",
     "moduleResolution": "Node",
-    "strict": true,
+    "strict": false,
     "alwaysStrict": false,
     "importHelpers": true,
     "experimentalDecorators": true,
@@ -22,9 +22,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "/@/*": ["src/*"],
-      "@build/*": ["build/*"],
-      "/#/*": ["types/*"]
+      "@/*": ["./src/*"]
     },
     "types": ["vite/client", "node"],
     "typeRoots": ["./node_modules/@types/", "./types"]
