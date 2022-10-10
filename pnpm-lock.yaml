@@ -17,6 +17,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-vue: ^9.5.1
   node-sass: ^7.0.3
+  pnpm: ^7.13.3
   postcss: ^8.4.17
   prettier: ^2.7.1
   sass: ^1.55.0
@@ -37,6 +38,7 @@ dependencies:
   element-plus: 2.2.17_vue@3.2.40
   eslint-config-prettier: 8.5.0_eslint@8.24.0
   eslint-plugin-prettier: 4.2.1_cfn5x6ujhhgzv3423d6k7r2zzm
+  pnpm: 7.13.3
   prettier: 2.7.1
   sass: 1.55.0
   scss: 0.2.4
@@ -2737,6 +2739,12 @@ packages:
       mlly: 0.5.16
       pathe: 0.3.9
     dev: true
+
+  /pnpm/7.13.3:
+    resolution: {integrity: sha512-6avqSfzfAr/9w1ZleaMI276ZuZUu88eOIe6v2mTCuwtSjUEqheboH1G4m7jgF+4arMUfnBrz371UAU+DCeCiSA==}
+    engines: {node: '>=14.6'}
+    hasBin: true
+    dev: false
 
   /postcss-import/14.1.0_postcss@8.4.17:
     resolution: {integrity: sha512-flwI+Vgm4SElObFVPpTIT7SU7R3qk2L7PyduMcokiaVKuWv9d/U+Gm/QAd8NDLuykTWTkcrjOeD2Pp1rMeBTGw==}
