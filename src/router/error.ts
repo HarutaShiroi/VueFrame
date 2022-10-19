@@ -1,4 +1,4 @@
-import { RouteConfigsTable } from "/@/vite-env";
+import { RouteConfigsTable } from "@/vite-env";
 
 const errorRouter: RouteConfigsTable = {
   path: "/error",
